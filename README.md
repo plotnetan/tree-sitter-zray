@@ -27,7 +27,7 @@ Keywords are whole words (`word`): `enddate` is a name, not END + DATE.
 
 | grammar | sources | without an error node |
 |---|---|---|
-| ABAP | 116,230 (three customer systems) | all but 9 (2 truncated files, 6 chained calls `m(: a ), b ).`, 1 source error) |
+| ABAP | 116,230 | all but 9 (2 truncated files, 6 chained calls `m(: a ), b ).`, 1 source error) |
 | CDS | 12,464 | all (but the two deliberately broken parser fixtures) |
 | BDEF | 37 (parser fixtures) | all (but the two deliberately broken ones) |
 
